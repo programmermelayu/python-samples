@@ -1,11 +1,11 @@
 # Calculate expense sum for two lists without function
-bharat_expenses = [20,30,45]
+ali_expenses = [20,30,45]
 bilal_expenses = [45,67,34]
 
 total=0
-for item in bharat_expenses:
+for item in ali_expenses:
     total+=item
-print("Bharat's total:",total)
+print("Ali's total:",total)
 
 total=0
 for item in bilal_expenses:
@@ -24,8 +24,8 @@ def find_total(exp):
         total+=item
     return total
 
-bharat_total=find_total(bharat_expenses)
-print("Bharat's total:",bharat_total)
+ali_total=find_total(ali_expenses)
+print("Ali's total:",ali_total)
 
 bilal_total=find_total(bilal_expenses)
 print("Bilal's total:",bilal_total)
